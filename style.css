@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Itim', cursive;
+}
+.container {
+    width: 500px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    border-radius: 10px;
+}
+.container h3 {
+    font-size: 15px;
+    color: gray;
+}
+.joke {
+    font-size: 20px;
+    text-align: center;
+    padding: 0 20px;
+}
+.btn {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px gray;
+    transition: all 0.3s;
+}
+.btn:hover {
+    background-color: rgb(2, 85, 85);
+    color: white;
+}
